@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		440DCE8F274D2C6200F3EE3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440DCE8E274D2C6200F3EE3D /* main.swift */; };
+		44C403742759186400C6202B /* CarProreties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C403732759186300C6202B /* CarProreties.swift */; };
+		44C40376275919AC00C6202B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C40375275919AC00C6202B /* Car.swift */; };
+		44C4037A2759FD2400C6202B /* SporctCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C403792759FD2400C6202B /* SporctCar.swift */; };
+		44C4037C2759FE1800C6202B /* TrunkCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4037B2759FE1800C6202B /* TrunkCar.swift */; };
+		44C4037E275A090900C6202B /* CarTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4037D275A090900C6202B /* CarTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		440DCE8B274D2C6200F3EE3D /* gbCourseOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gbCourseOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		440DCE8E274D2C6200F3EE3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44C403732759186300C6202B /* CarProreties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProreties.swift; sourceTree = "<group>"; };
+		44C40375275919AC00C6202B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		44C403792759FD2400C6202B /* SporctCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporctCar.swift; sourceTree = "<group>"; };
+		44C4037B2759FE1800C6202B /* TrunkCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrunkCar.swift; path = gbCourseOne/Classes/TrunkCar.swift; sourceTree = SOURCE_ROOT; };
+		44C4037D275A090900C6202B /* CarTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		440DCE8D274D2C6200F3EE3D /* gbCourseOne */ = {
 			isa = PBXGroup;
 			children = (
+				44C403772759FC7D00C6202B /* Enums */,
+				44C403782759FCA900C6202B /* Classes */,
 				440DCE8E274D2C6200F3EE3D /* main.swift */,
 			);
 			path = gbCourseOne;
+			sourceTree = "<group>";
+		};
+		44C403772759FC7D00C6202B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				44C403732759186300C6202B /* CarProreties.swift */,
+				44C4037D275A090900C6202B /* CarTypes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		44C403782759FCA900C6202B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44C40375275919AC00C6202B /* Car.swift */,
+				44C403792759FD2400C6202B /* SporctCar.swift */,
+				44C4037B2759FE1800C6202B /* TrunkCar.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C4037E275A090900C6202B /* CarTypes.swift in Sources */,
+				44C40376275919AC00C6202B /* Car.swift in Sources */,
+				44C403742759186400C6202B /* CarProreties.swift in Sources */,
+				44C4037C2759FE1800C6202B /* TrunkCar.swift in Sources */,
 				440DCE8F274D2C6200F3EE3D /* main.swift in Sources */,
+				44C4037A2759FD2400C6202B /* SporctCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
