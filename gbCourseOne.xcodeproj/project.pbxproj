@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		440DCE8F274D2C6200F3EE3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440DCE8E274D2C6200F3EE3D /* main.swift */; };
+		44373F6C2761EFDD005E4E41 /* CarTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44373F6B2761EFDD005E4E41 /* CarTypes.swift */; };
+		44373F6E2761F01C005E4E41 /* CarProreties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44373F6D2761F01C005E4E41 /* CarProreties.swift */; };
+		44373F722761F0C7005E4E41 /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44373F712761F0C7005E4E41 /* SportCar.swift */; };
+		44373F742761F0E2005E4E41 /* TrunkCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44373F732761F0E2005E4E41 /* TrunkCar.swift */; };
+		44BBCEDA2762037800A55ABC /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BBCED92762037800A55ABC /* CarProtocol.swift */; };
+		44BBCEE027623D0200A55ABC /* CarId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BBCEDF27623D0200A55ABC /* CarId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		440DCE8B274D2C6200F3EE3D /* gbCourseOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gbCourseOne; sourceTree = BUILT_PRODUCTS_DIR; };
 		440DCE8E274D2C6200F3EE3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44373F6B2761EFDD005E4E41 /* CarTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTypes.swift; sourceTree = "<group>"; };
+		44373F6D2761F01C005E4E41 /* CarProreties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProreties.swift; sourceTree = "<group>"; };
+		44373F712761F0C7005E4E41 /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		44373F732761F0E2005E4E41 /* TrunkCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrunkCar.swift; sourceTree = "<group>"; };
+		44BBCED92762037800A55ABC /* CarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		44BBCEDF27623D0200A55ABC /* CarId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,46 @@
 			isa = PBXGroup;
 			children = (
 				440DCE8E274D2C6200F3EE3D /* main.swift */,
+				44BBCEE127623D1600A55ABC /* Struct */,
+				44373F772761F1AC005E4E41 /* Protocol */,
+				44373F6F2761F034005E4E41 /* enums */,
+				44373F702761F08C005E4E41 /* Classes */,
 			);
 			path = gbCourseOne;
+			sourceTree = "<group>";
+		};
+		44373F6F2761F034005E4E41 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				44373F6B2761EFDD005E4E41 /* CarTypes.swift */,
+				44373F6D2761F01C005E4E41 /* CarProreties.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		44373F702761F08C005E4E41 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44373F712761F0C7005E4E41 /* SportCar.swift */,
+				44373F732761F0E2005E4E41 /* TrunkCar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44373F772761F1AC005E4E41 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				44BBCED92762037800A55ABC /* CarProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		44BBCEE127623D1600A55ABC /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				44BBCEDF27623D0200A55ABC /* CarId.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44373F6C2761EFDD005E4E41 /* CarTypes.swift in Sources */,
+				44BBCEE027623D0200A55ABC /* CarId.swift in Sources */,
 				440DCE8F274D2C6200F3EE3D /* main.swift in Sources */,
+				44373F6E2761F01C005E4E41 /* CarProreties.swift in Sources */,
+				44373F742761F0E2005E4E41 /* TrunkCar.swift in Sources */,
+				44BBCEDA2762037800A55ABC /* CarProtocol.swift in Sources */,
+				44373F722761F0C7005E4E41 /* SportCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
